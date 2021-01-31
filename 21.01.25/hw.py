@@ -4,7 +4,7 @@
 '''
 import re
 
-RE_REAL_NUMBERS_VALIDATOR = re.compile(r'^[\d]{1,}[.|,]{1}[\d]+$')
+RE_REAL_NUMBERS_VALIDATOR = re.compile(r'^[\d]{1,}[.|,][\d]+$')
 
 def number_is_valid(number):
     return RE_REAL_NUMBERS_VALIDATOR.match(number)
