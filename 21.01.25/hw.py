@@ -11,6 +11,6 @@ def number_is_valid(number):
 
 assert not number_is_valid('1.d2')
 assert not number_is_valid('d.32')
+assert not number_is_valid('132')
 assert number_is_valid('1.32')
 assert number_is_valid('1,32')
-
