@@ -80,5 +80,3 @@ from decorators import do_twice
 def return_greeting(name):
     print("Creating greeting")
     return f"Hi {name}"
-
-6
