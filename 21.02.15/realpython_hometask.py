@@ -1,3 +1,4 @@
+# 1
 # def my_decorator(func):
 #     def wrapper():
 #         print("Something is happening before the function is called.")
@@ -16,6 +17,7 @@
 
 
 
+# 2
 # from datetime import datetime
 #
 # def not_during_the_night(func):
@@ -35,6 +37,7 @@
 
 
 
+# 3
 # def my_decorator(func):
 #     def wrapper():
 #         print("Something is happening before the function is called.")
@@ -49,6 +52,7 @@
 
 
 
+# 4
 # from decorators import do_twice
 #
 # @do_twice
@@ -59,9 +63,22 @@
 
 
 
+# 5
+# from decorators import do_twice
+#
+# @do_twice
+# def greet(name):
+#     print(f"Hello {name}")
+# greet("World")
+
+
+
+# 6
 from decorators import do_twice
 
 @do_twice
-def greet(name):
-    print(f"Hello {name}")
-greet("World")
+def return_greeting(name):
+    print("Creating greeting")
+    return f"Hi {name}"
+
+6
